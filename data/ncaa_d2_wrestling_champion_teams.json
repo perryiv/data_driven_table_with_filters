@@ -1,0 +1,548 @@
+{
+  "title": "NCAA Division 2 Wrestling Champship History",
+  "source": "http://www.ncaa.com/history/wrestling/d2",
+  "columns": [
+    "Year",
+    "Champion",
+    "Coach",
+    "Points",
+    "Runner-Up",
+    "Points",
+    "Location"
+  ],
+  "filters": [
+    [
+      {
+        "columns": [0],
+        "label": "Min year",
+        "type": "number",
+        "operation": "<"
+      },
+      {
+        "columns": [0],
+        "label": "Max year",
+        "type": "number",
+        "operation": ">"
+      }
+    ],
+    [
+      {
+        "columns": [3, 5],
+        "label": "Min points",
+        "type": "number",
+        "operation": "<"
+      },
+      {
+        "columns": [3, 5],
+        "label": "Max points",
+        "type": "number",
+        "operation": ">"
+      }
+    ],
+    [
+      {
+        "columns": [1],
+        "label": "Champion",
+        "type": "text"
+      },
+      {
+        "columns": [4],
+        "label": "Runner-Up",
+        "type": "text"
+      }
+    ],
+    [
+      {
+        "columns": [2],
+        "label": "Coach",
+        "type": "text"
+      }
+    ],
+    [
+      {
+        "columns": [6],
+        "label": "Location",
+        "type": "text"
+      }
+    ]
+  ],
+  "rows": [
+    [
+      2015,
+      "St. Cloud State",
+      "Steve Costanzo",
+      84.5,
+      "Nebraska-Kearney",
+      76.5,
+      "St. Louis"
+    ],
+    [
+      2014,
+      "Notre Dame (Ohio)",
+      "Frank Romano",
+      99.5,
+      "Nebraska-Kearney",
+      64.5,
+      "Cleveland"
+    ],
+    [
+      2013,
+      "Nebraska-Kearney",
+      "Marc Bauer",
+      108,
+      "St. Cloud State",
+      105,
+      "Birmingham, Ala."
+    ],
+    [
+      2012,
+      "Nebraska-Kearney",
+      "Marc Bauer",
+      107,
+      "St. Cloud State",
+      95,
+      "CSU-Pueblo"
+    ],
+    [
+      2011,
+      "Nebraska-Omaha",
+      "Mike Denney",
+      102.5,
+      "St. Cloud State",
+      90.5,
+      "Nebraska-Kearney"
+    ],
+    [
+      2010,
+      "Nebraska-Omaha",
+      "Mike Denney",
+      131,
+      "Augustana (S.D.)",
+      72,
+      "Nebraska-Omaha"
+    ],
+    [
+      2009,
+      "Nebraska-Omaha",
+      "Mike Denney",
+      146.5,
+      "Newberry",
+      80.5,
+      "Houston"
+    ],
+    [
+      2008,
+      "Nebraska-Kearney",
+      "Marc Bauer",
+      109.5,
+      "Minnesota State-Mankato",
+      108,
+      "Upper Iowa"
+    ],
+    [
+      2007,
+      "Central Oklahoma",
+      "David James",
+      124.5,
+      "Nebraska-Kearney",
+      108.5,
+      "Nebraska-Kearney"
+    ],
+    [
+      2006,
+      "Nebraska-Omaha",
+      "Mike Denney",
+      117,
+      "Nebraska-Kearney",
+      98.5,
+      "Findlay"
+    ],
+    [
+      2005,
+      "Nebraska-Omaha",
+      "Mike Denney",
+      109.5,
+      "Augustana (S.D.)",
+      101,
+      "Nebraska-Omaha"
+    ],
+    [
+      2004,
+      "Nebraska-Omaha",
+      "Mike Denney",
+      97.5,
+      "North Dakota State",
+      95,
+      "Minnesota State-Mankato"
+    ],
+    [
+      2003,
+      "Central Oklahoma",
+      "David James",
+      87.5,
+      "Nebraska-Kearney",
+      73.5,
+      "Wheeling, W.Va."
+    ],
+    [
+      2002,
+      "Central Oklahoma",
+      "David James",
+      126,
+      "North Dakota State",
+      116.5,
+      "Wisconsin-Parkside"
+    ],
+    [
+      2001,
+      "North Dakota State",
+      "Bucky Maughan",
+      98.5,
+      "South Dakota State",
+      91,
+      "Northern Colorado"
+    ],
+    [
+      2000,
+      "North Dakota State",
+      "Bucky Maughan",
+      91.5,
+      "Central Oklahoma",
+      75,
+      "South Dakota State"
+    ],
+    [
+      1999,
+      "Pittsburgh-Johnstown",
+      "Pat Pecora",
+      110,
+      "Nebraska-Omaha",
+      105.5,
+      "Nebraska-Omaha"
+    ],
+    [
+      1998,
+      "North Dakota State",
+      "Bucky Maughan",
+      112,
+      "South Dakota State",
+      78,
+      "CSU-Pueblo"
+    ],
+    [
+      1997,
+      "San Francisco State",
+      "Lars Jensen",
+      95,
+      "Nebraska-Omaha",
+      81,
+      "North Dakota State"
+    ],
+    [
+      1996,
+      "Pittsburgh-Johnstown",
+      "Pat Pecora",
+      86.5,
+      "Central Oklahoma",
+      81.5,
+      "Northern Colorado"
+    ],
+    [
+      1995,
+      "Central Oklahoma",
+      "David James",
+      148,
+      "Nebraska-Omaha",
+      103,
+      "Nebraska-Kearney"
+    ],
+    [
+      1994,
+      "Central Oklahoma",
+      "David James",
+      127.24,
+      "Minnesota State-Mankato",
+      65.5,
+      "CSU-Pueblo"
+    ],
+    [
+      1993,
+      "Central Oklahoma",
+      "David James",
+      108.5,
+      "Nebraska-Omaha",
+      68,
+      "South Dakota State"
+    ],
+    [
+      1992,
+      "Central Oklahoma",
+      "David James",
+      91.5,
+      "North Dakota State/Portland State",
+      78.5,
+      "Northern Colorado"
+    ],
+    [
+      1991,
+      "Nebraska-Omaha",
+      "Mike Denney",
+      79.5,
+      "Central Oklahoma",
+      64,
+      "North Dakota State"
+    ],
+    [
+      1990,
+      "Portland State",
+      "Marlin Grahn",
+      100.75,
+      "Central Oklahoma",
+      96,
+      "Wisconsin-Parkside"
+    ],
+    [
+      1989,
+      "Portland State",
+      "Marlin Grahn",
+      102.5,
+      "Ferris State",
+      56.25,
+      "California (Pa.)"
+    ],
+    [
+      1988,
+      "North Dakota State",
+      "Bucky Maughan",
+      99,
+      "Nebraska-Omaha",
+      81.75,
+      "Nebraska-Omaha"
+    ],
+    [
+      1987,
+      "Cal State Bakersfield",
+      "T.J. Kerr",
+      90.5,
+      "SIU Edwardsville",
+      69.5,
+      "SIU Edwardsville"
+    ],
+    [
+      1986,
+      "SIU Edwardsville",
+      "Larry Kristoff",
+      110,
+      "Edinboro",
+      106.5,
+      "SIU Edwardsville"
+    ],
+    [
+      1985,
+      "SIU Edwardsville",
+      "Larry Kristoff",
+      132.75,
+      "Nebraska-Omaha",
+      84.25,
+      "Wright State"
+    ],
+    [
+      1984,
+      "SIU Edwardsville",
+      "Larry Kristoff",
+      141.5,
+      "Cal State Bakersfield",
+      93,
+      "Morgan state"
+    ],
+    [
+      1983,
+      "Cal State Bakersfield",
+      "Joe Seay",
+      107.5,
+      "North Dakota State",
+      103.75,
+      "North Dakota State"
+    ],
+    [
+      1982,
+      "Cal State Bakersfield",
+      "Joe Seay",
+      166.5,
+      "North Dakota State",
+      78.75,
+      "Wisconsin-Parkside"
+    ],
+    [
+      1981,
+      "Cal State Bakersfield",
+      "Joe Seay",
+      144.5,
+      "Eastern Illinois",
+      98,
+      "UC Davis"
+    ],
+    [
+      1980,
+      "Cal State Bakersfield",
+      "Joe Seay",
+      110.5,
+      "UNI",
+      89,
+      "Nebraska-Omaha"
+    ],
+    [
+      1979,
+      "Cal State Bakersfield",
+      "Joe Seay",
+      112.75,
+      "Eastern Illinois",
+      112.5,
+      "South Dakota State"
+    ],
+    [
+      1978,
+      "UNI",
+      "Chuck Patten",
+      124,
+      "Cal State Bakersfield",
+      100.5,
+      "UNI"
+    ],
+    [
+      1977,
+      "Cal State Bakersfield",
+      "Joe Seay",
+      107.25,
+      "Augustana (S.D.)",
+      78,
+      "UNI"
+    ],
+    [
+      1976,
+      "Cal State Bakersfield",
+      "Joe Seay",
+      92.5,
+      "Chattanooga",
+      88.25,
+      "North Dakota State"
+    ],
+    [
+      1975,
+      "UNI",
+      "Chuck Patten",
+      112,
+      "SIU Edwardsville",
+      71.5,
+      "East Stroudsburg"
+    ],
+    [
+      1974,
+      "Cal Poly",
+      "Vaughan Hitchcock",
+      131.5,
+      "UNI",
+      95.5,
+      "Cal State Fullerton"
+    ],
+    [
+      1973,
+      "Cal Poly",
+      "Vaughan Hitchcock",
+      109,
+      "Clarion",
+      80,
+      "South Dakota State"
+    ],
+    [
+      1972,
+      "Cal Poly",
+      "Vaughan Hitchcock",
+      94,
+      "South Dakota State/UNI",
+      64.5,
+      "Oswego State"
+    ],
+    [
+      1971,
+      "Cal Poly",
+      "Vaughan Hitchcock",
+      118,
+      "Slippery Rock",
+      58,
+      "North Dakota State"
+    ],
+    [
+      1970,
+      "Cal Poly",
+      "Vaughan Hitchcock",
+      82,
+      "UNI",
+      58,
+      "Ashland"
+    ],
+    [
+      1969,
+      "Cal Poly",
+      "Vaughan Hitchcock",
+      127,
+      "Northern Colorado",
+      81,
+      "Cal Poly"
+    ],
+    [
+      1968,
+      "Cal Poly",
+      "Vaughan Hitchcock",
+      91,
+      "Portland State",
+      62,
+      "Minnesota State-Mankato"
+    ],
+    [
+      1967,
+      "Portland State",
+      "Howard Westcott",
+      86,
+      "Minnesota State-Mankato",
+      57,
+      "Wilkes"
+    ],
+    [
+      1966,
+      "Cal Poly",
+      "Vaughan Hitchcock",
+      55,
+      "Wilkes",
+      51,
+      "Minnesota State-Mankato"
+    ],
+    [
+      1965,
+      "Minnesota State-Mankato",
+      "Rummy Macias",
+      57,
+      "Cal Poly",
+      54,
+      "Colorado Mines"
+    ],
+    [
+      1964,
+      "Western State",
+      "Tracey Borah",
+      51,
+      "Colorado Mines",
+      49,
+      "UNI"
+    ],
+    [
+      1963,
+      "Western State",
+      "Tracey Borah",
+      62,
+      "Southern Illinois",
+      57,
+      "UNI"
+    ]
+  ]
+}

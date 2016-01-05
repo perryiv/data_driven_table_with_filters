@@ -1,0 +1,836 @@
+{
+  "title": "NCAA Division I Wrestling Champship History",
+  "source": "http://www.ncaa.com/history/wrestling/d1",
+  "columns": [
+    "Year",
+    "Champion",
+    "Coach",
+    "Points",
+    "Runner-Up",
+    "Points",
+    "Location"
+  ],
+  "filters": [
+    [
+      {
+        "columns": [ 0 ],
+        "label": "Min year",
+        "type": "number",
+        "operation": "<"
+      },
+      {
+        "columns": [ 0 ],
+        "label": "Max year",
+        "type": "number",
+        "operation": ">"
+      }
+    ],
+    [
+      {
+        "columns": [ 3, 5 ],
+        "label": "Min points",
+        "type": "number",
+        "operation": "<"
+      },
+      {
+        "columns": [ 3, 5 ],
+        "label": "Max points",
+        "type": "number",
+        "operation": ">"
+      }
+    ],
+    [
+      {
+        "columns": [ 1 ],
+        "label": "Champion",
+        "type": "text"
+      },
+      {
+        "columns": [ 4 ],
+        "label": "Runner-Up",
+        "type": "text"
+      }
+    ],
+    [
+      {
+        "columns": [ 2 ],
+        "label": "Coach",
+        "type": "text"
+      }
+    ],
+    [
+      {
+        "columns": [ 6 ],
+        "label": "Location",
+        "type": "text"
+      }
+    ]
+  ],
+  "rows": [
+    [
+      2015,
+      "Ohio State",
+      "Tom Ryan",
+      102,
+      "Iowa",
+      84,
+      "St. Louis"
+    ],
+    [
+      2014,
+      "Penn State",
+      "Cael Sanderson",
+      109.5,
+      "Minnesota",
+      104,
+      "Oklahoma City"
+    ],
+    [
+      2013,
+      "Penn State",
+      "Cael Sanderson",
+      123.5,
+      "Oklahoma St.",
+      119.5,
+      "Des Moines, Iowa"
+    ],
+    [
+      2012,
+      "Penn State",
+      "Cael Sanderson",
+      143.0,
+      "Minnesota",
+      117.5,
+      "St. Louis"
+    ],
+    [
+      2011,
+      "Penn State",
+      "Cael Sanderson",
+      103.5,
+      "Cornell",
+      89.5,
+      "Philadelphia"
+    ],
+    [
+      2010,
+      "Iowa",
+      "Tom Brands",
+      134.5,
+      "Cornell",
+      90,
+      "Omaha, Neb."
+    ],
+    [
+      2009,
+      "Iowa",
+      "Tom Brands",
+      96.5,
+      "Ohio State",
+      92,
+      "St. Louis"
+    ],
+    [
+      2008,
+      "Iowa",
+      "Tom Brands",
+      117.5,
+      "Ohio State",
+      79,
+      "St. Louis"
+    ],
+    [
+      2007,
+      "Minnesota",
+      "J Robinson",
+      98,
+      "Iowa State",
+      88.5,
+      "Auburn Hills, Mich."
+    ],
+    [
+      2006,
+      "Oklahoma State",
+      "John Smith",
+      122.5,
+      "Minnesota",
+      84,
+      "Oklahoma City"
+    ],
+    [
+      2005,
+      "Oklahoma State",
+      "John Smith",
+      153,
+      "Michigan",
+      83,
+      "St. Louis"
+    ],
+    [
+      2004,
+      "Oklahoma State",
+      "John Smith",
+      123.5,
+      "Iowa",
+      82,
+      "St. Louis"
+    ],
+    [
+      2003,
+      "Oklahoma State",
+      "John Smith",
+      143,
+      "Minnesota",
+      104.5,
+      "Kansas City, Mo."
+    ],
+    [
+      2002,
+      "Minnesota",
+      "J Robinson",
+      126.5,
+      "Iowa State",
+      104,
+      "Albany, N.Y."
+    ],
+    [
+      2001,
+      "Minnesota",
+      "J Robinson",
+      138.5,
+      "Iowa",
+      125.5,
+      "Iowa"
+    ],
+    [
+      2000,
+      "Iowa",
+      "Jim Zalesky",
+      116,
+      "Iowa State",
+      109.5,
+      "St. Louis"
+    ],
+    [
+      1999,
+      "Iowa",
+      "Jim Zalesky",
+      100.5,
+      "Minnesota",
+      98.5,
+      "Penn State"
+    ],
+    [
+      1998,
+      "Iowa",
+      "Jim Zalesky",
+      115,
+      "Minnesota",
+      102,
+      "Cleveland State"
+    ],
+    [
+      1997,
+      "Iowa",
+      "Dan Gable",
+      170,
+      "Oklahoma State",
+      113.5,
+      "UNI"
+    ],
+    [
+      1996,
+      "Iowa",
+      "Dan Gable",
+      122.5,
+      "Iowa State",
+      78.5,
+      "Minnesota"
+    ],
+    [
+      1995,
+      "Iowa",
+      "Dan Gable",
+      134,
+      "Oregon state",
+      77.5,
+      "Iowa"
+    ],
+    [
+      1994,
+      "Oklahoma State",
+      "John Smith",
+      94.75,
+      "Iowa",
+      76.5,
+      "North Carolina"
+    ],
+    [
+      1993,
+      "Iowa",
+      "Dan Gable",
+      123.75,
+      "Penn State",
+      87.5,
+      "Iowa State"
+    ],
+    [
+      1992,
+      "Iowa",
+      "Dan Gable",
+      149,
+      "Oklahoma State",
+      100.5,
+      "Oklahoma & Oklahoma State"
+    ],
+    [
+      1991,
+      "Iowa",
+      "Dan Gable",
+      157,
+      "Oklahoma State",
+      108.75,
+      "Iowa"
+    ],
+    [
+      1990,
+      "Oklahoma State",
+      "Joe Seay",
+      117.75,
+      "Arizona State",
+      104.75,
+      "Maryland"
+    ],
+    [
+      1989,
+      "Oklahoma State",
+      "Joe Seay",
+      91.25,
+      "Arizona State",
+      70.5,
+      "Oklahoma & Oklahoma State"
+    ],
+    [
+      1988,
+      "Arizona State",
+      "Bobby Douglas",
+      93,
+      "Iowa",
+      85.5,
+      "Iowa"
+    ],
+    [
+      1987,
+      "Iowa State",
+      "Jim Gibbons",
+      133,
+      "Iowa",
+      108,
+      "Maryland"
+    ],
+    [
+      1986,
+      "Iowa",
+      "Dan Gable",
+      158,
+      "Oklahoma",
+      84.25,
+      "Oklahoma & Oklahoma State"
+    ],
+    [
+      1985,
+      "Iowa",
+      "Dan Gable",
+      145.25,
+      "Oklahoma",
+      98.5,
+      "Iowa State"
+    ],
+    [
+      1984,
+      "Iowa",
+      "Dan Gable",
+      123.75,
+      "Oklahoma State",
+      98,
+      "Maryland"
+    ],
+    [
+      1983,
+      "Iowa",
+      "Dan Gable",
+      155,
+      "Oklahoma State",
+      102,
+      "Iowa"
+    ],
+    [
+      1982,
+      "Iowa",
+      "Dan Gable",
+      131.75,
+      "Iowa State",
+      111,
+      "Oklahoma & Oklahoma State"
+    ],
+    [
+      1981,
+      "Iowa",
+      "Dan Gable",
+      129.75,
+      "Oklahoma",
+      100.25,
+      "Princeton"
+    ],
+    [
+      1980,
+      "Iowa",
+      "Dan Gable",
+      110.75,
+      "Oklahoma State",
+      87,
+      "Oregon State"
+    ],
+    [
+      1979,
+      "Iowa",
+      "Dan Gable",
+      122.5,
+      "Iowa State",
+      88,
+      "Iowa State"
+    ],
+    [
+      1978,
+      "Iowa",
+      "Dan Gable",
+      94.5,
+      "Iowa State",
+      94,
+      "Maryland"
+    ],
+    [
+      1977,
+      "Iowa State",
+      "Harold Nichols",
+      95.5,
+      "Oklahoma State",
+      88.75,
+      "Oklahoma"
+    ],
+    [
+      1976,
+      "Iowa",
+      "Gary Kurdelmeier",
+      123.5,
+      "Iowa State",
+      85.75,
+      "Arizona"
+    ],
+    [
+      1975,
+      "Iowa",
+      "Gary Kurdelmeier",
+      102,
+      "Oklahoma",
+      77,
+      "Princeton"
+    ],
+    [
+      1974,
+      "Oklahoma",
+      "Stan Abel",
+      69.5,
+      "Michigan",
+      67,
+      "Iowa State"
+    ],
+    [
+      1973,
+      "Iowa State",
+      "Harold Nichols",
+      85,
+      "Oregon state",
+      72.5,
+      "Washington"
+    ],
+    [
+      1972,
+      "Iowa State",
+      "Harold Nichols",
+      103,
+      "Michigan State",
+      72.5,
+      "Maryland"
+    ],
+    [
+      1971,
+      "Oklahoma State",
+      "Tommy Chesbro",
+      94,
+      "Iowa State",
+      66,
+      "Auburn"
+    ],
+    [
+      1970,
+      "Iowa State",
+      "Harold Nichols",
+      99,
+      "Michigan State",
+      84,
+      "Northwestern"
+    ],
+    [
+      1969,
+      "Iowa State",
+      "Harold Nichols",
+      104,
+      "Oklahoma",
+      69,
+      "BYU"
+    ],
+    [
+      1968,
+      "Oklahoma State",
+      "Myron Roderick",
+      81,
+      "Iowa State",
+      78,
+      "Penn State"
+    ],
+    [
+      1967,
+      "Michigan State",
+      "Grady Peninger",
+      74,
+      "Michigan",
+      63,
+      "Kent State"
+    ],
+    [
+      1966,
+      "Oklahoma State",
+      "Myron Roderick",
+      79,
+      "Iowa State",
+      70,
+      "Iowa State"
+    ],
+    [
+      1965,
+      "Iowa State",
+      "Harold Nichols",
+      87,
+      "Oklahoma State",
+      86,
+      "Wyoming"
+    ],
+    [
+      1964,
+      "Oklahoma State",
+      "Myron Roderick",
+      87,
+      "Oklahoma",
+      58,
+      "Cornell"
+    ],
+    [
+      1963,
+      "Oklahoma",
+      "Thomas Evans",
+      48,
+      "Iowa State",
+      45,
+      "Kent State"
+    ],
+    [
+      1962,
+      "Oklahoma State",
+      "Myron Roderick",
+      82,
+      "Oklahoma",
+      45,
+      "Oklahoma State"
+    ],
+    [
+      1961,
+      "Oklahoma State",
+      "Myron Roderick",
+      82,
+      "Oklahoma",
+      63,
+      "Oregon State"
+    ],
+    [
+      1960,
+      "Oklahoma",
+      "Thomas Evans",
+      59,
+      "Iowa State",
+      40,
+      "Maryland"
+    ],
+    [
+      1959,
+      "Oklahoma State",
+      "Myron Roderick",
+      73,
+      "Iowa State",
+      51,
+      "Iowa"
+    ],
+    [
+      1958,
+      "Oklahoma State",
+      "Myron Roderick",
+      77,
+      "Iowa State",
+      62,
+      "Wyoming"
+    ],
+    [
+      1957,
+      "Oklahoma",
+      "Port Robertson",
+      73,
+      "Pittsburgh",
+      66,
+      "Pittsburgh"
+    ],
+    [
+      1956,
+      "Oklahoma State",
+      "Art Griffith",
+      65,
+      "Oklahoma",
+      62,
+      "Oklahoma State"
+    ],
+    [
+      1955,
+      "Oklahoma State",
+      "Art Griffith",
+      40,
+      "Penn State",
+      31,
+      "Cornell"
+    ],
+    [
+      1954,
+      "Oklahoma State",
+      "Art Griffith",
+      32,
+      "Pittsburgh",
+      17,
+      "Oklahoma"
+    ],
+    [
+      1953,
+      "Penn State",
+      "Charles Speidel",
+      21,
+      "Oklahoma",
+      15,
+      "Penn State"
+    ],
+    [
+      1952,
+      "Oklahoma",
+      "Port Robertson",
+      22,
+      "UNI",
+      21,
+      "Colorado State"
+    ],
+    [
+      1951,
+      "Oklahoma",
+      "Port Robertson",
+      24,
+      "Oklahoma State",
+      23,
+      "Lehigh"
+    ],
+    [
+      1950,
+      "UNI",
+      "David McCuskey",
+      30,
+      "Purdue",
+      16,
+      "UNI"
+    ],
+    [
+      1949,
+      "Olahoma State",
+      "Art Griffith",
+      32,
+      "UNI",
+      27,
+      "Colorado State"
+    ],
+    [
+      1948,
+      "Oklahoma State",
+      "Art Griffith",
+      33,
+      "Michigan State",
+      28,
+      "Lehigh"
+    ],
+    [
+      1947,
+      "Cornell College",
+      "Paul Scott",
+      32,
+      "UNI",
+      19,
+      "Illinois"
+    ],
+    [
+      1946,
+      "Oklahoma State",
+      "Art Griffith",
+      25,
+      "UNI",
+      24,
+      "Oklahoma State"
+    ],
+    [
+      1942,
+      "Oklahoma State",
+      "Art Griffith",
+      31,
+      "Michigan State",
+      26,
+      "Michigan State"
+    ],
+    [
+      1941,
+      "Oklahoma State",
+      "Art Griffith",
+      37,
+      "Michigan State",
+      26,
+      "Lehigh"
+    ],
+    [
+      1940,
+      "Oklahoma State",
+      "E.C. Gallagher",
+      24,
+      "Indiana",
+      14,
+      "Illinois"
+    ],
+    [
+      1939,
+      "Oklahoma State",
+      "E.C. Gallagher",
+      33,
+      "Lehigh",
+      12,
+      "Frankline & Marshall"
+    ],
+    [
+      1938,
+      "Oklahoma State",
+      "E.C. Gallagher",
+      19,
+      "Illinois",
+      15,
+      "Penn State"
+    ],
+    [
+      1937,
+      "Oklahoma State",
+      "E.C. Gallagher",
+      31,
+      "Oklahoma",
+      13,
+      "Indiana State"
+    ],
+    [
+      1936,
+      "Oklahoma",
+      "Paul Keen",
+      14,
+      "Central Oklahoma/Oklahoma State",
+      10,
+      "Washington & Lee"
+    ],
+    [
+      1935,
+      "Oklahoma State",
+      "E.C. Gallagher",
+      36,
+      "Oklahoma",
+      18,
+      "Lehigh"
+    ],
+    [
+      1934,
+      "Oklahoma State",
+      "E.C. Gallagher",
+      29,
+      "Indiana",
+      19,
+      "Michigan"
+    ],
+    [
+      1933,
+      "*Iowa State/Oklahoma State",
+      "Hugo Otopali/E.C. Gallagher",
+      null,
+      null,
+      null,
+      "Lehigh"
+    ],
+    [
+      1932,
+      "*Indiana",
+      "W.H. Thorn",
+      14,
+      "Oklahoma State",
+      11,
+      "Indiana"
+    ],
+    [
+      1931,
+      "*Oklahoma State",
+      "E.C. Gallagher",
+      null,
+      "Iowa State",
+      null,
+      "Brown"
+    ],
+    [
+      1930,
+      "Oklahoma State",
+      "E.C. Gallagher",
+      27,
+      "Illinois",
+      14,
+      "Penn State"
+    ],
+    [
+      1929,
+      "Oklahoma State",
+      "E.C. Gallagher",
+      26,
+      "Michigan",
+      18,
+      "Ohio state"
+    ],
+    [
+      1928,
+      "*Oklahoma State",
+      "E.C. Gallagher",
+      null,
+      "Iowa State/Michigan",
+      null,
+      "Iowa State"
+    ]
+  ]
+}

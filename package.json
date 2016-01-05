@@ -1,0 +1,41 @@
+{
+  "name": "data_driven_table_with_filters",
+  "version": "1.0.0",
+  "description": "Data-driven table and optional filters built with React.",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perryiv/data_driven_table_with_filters.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Perry Miller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/perryiv/data_driven_table_with_filters/issues"
+  },
+  "homepage": "https://github.com/perryiv/data_driven_table_with_filters#readme",
+  "devDependencies": {
+    "babel-loader": "^5.4.0",
+    "babel-plugin-react-transform": "^1.1.1",
+    "css-loader": "^0.23.0",
+    "html-webpack-plugin": "^1.7.0",
+    "react-transform-hmr": "^1.0.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.8",
+    "webpack-dev-server": "^1.12.1",
+    "webpack-merge": "^0.3.2"
+  },
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "material-ui": "^0.14.0",
+    "react": "^0.14.3",
+    "react-bootstrap": "^0.28.1",
+    "react-dom": "^0.14.3",
+    "react-tap-event-plugin": "^0.2.1"
+  }
+}
