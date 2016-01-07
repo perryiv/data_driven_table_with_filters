@@ -31,7 +31,7 @@ var common = {
     ]
   },
   plugins: [
-    new HtmlWebpackPlugin ( { title: "Wrestling Data" } )
+    new HtmlWebpackPlugin ( { title: "Data-Driven Table with Filters" } )
   ]
 };
 
