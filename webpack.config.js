@@ -53,7 +53,7 @@ if ( TARGET === "start" || !TARGET )
       progress: true,
       quiet: true, // 
       stats: "errors-only", // Display only errors to reduce the amount of output.
-      // host: process.env.HOST, // Parse host and port from env so this is easy to customize.
+      host: process.env.HOST, // Parse host and port from env so this is easy to customize.
       port: process.env.PORT
     },
     module: {

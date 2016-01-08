@@ -85,7 +85,7 @@ Component.prototype._render = function()
 Component.prototype._renderGroup = function ( group, index )
 {
   return (
-    <Col xs={12} md={6} lg={3} key={index}>
+    <Col xs={6} md={6} lg={3} key={index}>
       <div className="filterGroupDiv">
         { group.map ( jQuery.proxy ( this._renderFilter, this ) ) }
       </div>
