@@ -63,7 +63,7 @@ App.prototype._download = function()
   setTimeout ( jQuery.proxy ( function()
   {
     jQuery.ajax ( {
-      url: "/data/ncaa_d1_wrestling_all_americans.json",
+      url: "/data/ncaa_d1_wrestling_champion_teams.json",
       dataType: "json",
       success: jQuery.proxy ( this._onDownloadSuccess, this ),
       error: jQuery.proxy ( this._onDownloadError, this ),
