@@ -66,7 +66,7 @@ Component.prototype._renderRow = function ( row, index )
   for ( let i = 0; i < numColumns; ++i )
   {
     let filter = filters[i];
-    console.log ( "filters:", filters );
+    // console.log ( "filters:", filters );
     if ( filter )
     {
       for ( let operation in filter )
